@@ -29,4 +29,32 @@ for i in s:
 
 print("space",space)
 
+print("="*80)
+
+print("ii.)Reverse a string without using slicing -use a loop")
+
+print("\n")
+
+num=int(input("enter a sentence"))
+rev=0
+
+while num>0:
+    calc=num%10
+    rev=rev*10+calc
+    num//=10
+
+print("Reversed:",rev)
+
+print("="*80)
+
+print("iii.)create a student list with 5 names add remove,sort,and print it)")
+
+print("\n")
+
+
+
+
+
+    
+    
 
