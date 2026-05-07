@@ -1,4 +1,4 @@
-print("i.)Take a sentences as input,count vowels, consonants,spaces,words")
+'''print("i.)Take a sentences as input,count vowels, consonants,spaces,words")
 
 print("\n")
 
@@ -45,11 +45,33 @@ while num>0:
 
 print("Reversed:",rev)
 
-print("="*80)
+print("="*80)'''
+
 
 print("iii.)create a student list with 5 names add remove,sort,and print it)")
 
 print("\n")
+
+students=["shwet","ved","aarav","jit","karan"]
+
+print("list is",students)
+
+students.append("tirth")
+
+print("added students ",students)
+
+students.remove("karan")
+
+print("Removed karan",students)
+
+
+
+
+
+
+
+
+
 
 
 
